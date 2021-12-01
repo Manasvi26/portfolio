@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name is Manasvi Sharma. I'm a web designer and developer based in Southampton, UK.",
+    "As you know now, my name is Manasvi Sharma and I'm a full stack web developer based in India.",
   description2:
-    "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    "Right now I fished my full stack web development cousre from Masai School, Bangalore. I love to learn and explore new arenas. I am highly-proficient in MERN stack. I am eager to learn and ready to contribute to the development of an organization and also open to work as a freelancer.",
   image: 2,
 };
