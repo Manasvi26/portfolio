@@ -103,7 +103,7 @@ function Landing() {
                 />
               </a>
             )}
-            {socialsData.youtube && (
+            {/* {socialsData.youtube && (
               <a href={socialsData.youtube} target="_blank" rel="noreferrer">
                 <FaYoutube
                   className="landing--social"
@@ -111,8 +111,8 @@ function Landing() {
                   aria-label="YouTube"
                 />
               </a>
-            )}
-            {socialsData.blogger && (
+            )} */}
+            {/* {socialsData.blogger && (
               <a href={socialsData.blogger} target="_blank" rel="noreferrer">
                 <FaBlogger
                   className="landing--social"
@@ -120,7 +120,7 @@ function Landing() {
                   aria-label="Blogger"
                 />
               </a>
-            )}
+            )} */}
           </div>
         </div>
         <img
