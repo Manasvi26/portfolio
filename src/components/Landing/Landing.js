@@ -10,7 +10,7 @@ import { socialsData } from "../../data/socialsData";
 import proPic from "./img/Manasvi_photograph.jpg";
 
 import {
-  FaTwitter,
+  FaInstagram,
   FaLinkedin,
   FaGithub,
   FaYoutube,
@@ -94,9 +94,9 @@ function Landing() {
                 />
               </a>
             )}
-            {socialsData.twitter && (
-              <a href={socialsData.twitter} target="_blank" rel="noreferrer">
-                <FaTwitter
+            {socialsData.instagram && (
+              <a href={socialsData.instagram} target="_blank" rel="noreferrer">
+                <FaInstagram
                   className="landing--social"
                   style={{ color: theme.secondary }}
                   aria-label="Twitter"

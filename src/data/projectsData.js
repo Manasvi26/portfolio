@@ -6,6 +6,8 @@ import five from "../assets/svg/projects/five.svg";
 import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
+import EduTech_image from "../assets/svg/projects/EduTech_image.png";
+import upGrad_image from "../assets/svg/projects/upGrad_image.png";
 
 export const projectsData = [
   {
@@ -16,7 +18,7 @@ export const projectsData = [
     tags: ["Js", "CSS", "HTML"],
     code: "https://github.com/madanakrishnanmasai/website-clone",
     demo: "https://upgrad-clone-backend.herokuapp.com/",
-    image: one,
+    image: upGrad_image,
   },
   {
     id: 2,
@@ -26,7 +28,7 @@ export const projectsData = [
     tags: ["React", "MongoDb"],
     code: "https://github.com/abhishek-hero/Project_Edutech",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: two,
+    image: EduTech_image,
   },
   {
     id: 3,
