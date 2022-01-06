@@ -8,37 +8,38 @@ import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
 import EduTech_image from "../assets/svg/projects/EduTech_image.png";
 import upGrad_image from "../assets/svg/projects/upGrad_image.png";
+import Dineout_image from "../assets/svg/projects/Dineout_image.png";
 
 export const projectsData = [
   {
     id: 1,
+    projectName: "Dineout Clone",
+    projectDesc:
+      "This is website where we can make early reservations for dinning out, with restaurants of our choice. ",
+    tags: ["React", "Redux", "Material Ui", "CSS", "MongoDb", "NodeJs"],
+    code: "https://github.com/suvamAdhikary/dineout_clone/tree/manasvi",
+    demo: "https://dineout-clone.vercel.app/",
+    image: Dineout_image,
+  },
+  {
+    id: 2,
     projectName: "UpGrad Clone",
     projectDesc:
       "upGrad is a website which offers curated online higher education, provides industry-relevant certification programs and career assistance services from universities across the world.",
-    tags: ["Js", "CSS", "HTML"],
+    tags: ["Js", "CSS", "HTML", "MongoDb", "NodeJs"],
     code: "https://github.com/madanakrishnanmasai/website-clone",
     demo: "https://upgrad-clone-backend.herokuapp.com/",
     image: upGrad_image,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "EduTech Website",
     projectDesc:
       "This is the platform where user can select the creative as well as technical courses of his choice, where industry experts take live sessions.",
-    tags: ["React", "MongoDb"],
+    tags: ["React", "MongoDb", "NodeJs"],
     code: "https://github.com/abhishek-hero/Project_Edutech",
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
     image: EduTech_image,
-  },
-  {
-    id: 3,
-    projectName: "Weather App",
-    projectDesc:
-      "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
-    tags: ["Django", "CSS", "Material Ui"],
-    code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: three,
   },
   {
     id: 4,
