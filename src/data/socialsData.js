@@ -11,4 +11,6 @@ export const socialsData = {
   stackOverflow: "https://stackoverflow.com/users/",
   gitlab: "https://gitlab.com/",
   youtube: "https://youtube.com/",
+  resume:
+    "https://drive.google.com/file/d/17L2bko19g2fB25272hCgJA-rqEY8tPB9/view?usp=sharing",
 };

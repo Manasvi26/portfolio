@@ -15,7 +15,7 @@ export const projectsData = [
     id: 1,
     projectName: "Dineout Clone",
     projectDesc:
-      "This is website where we can make early reservations for dinning out, with restaurants of our choice. ",
+      "This is website where we can make early reservations for dinning out, with the restaurants which suits our needs at great discounted prices without hassle.",
     tags: ["React", "Redux", "Material Ui", "CSS", "MongoDb", "NodeJs"],
     code: "https://github.com/suvamAdhikary/dineout_clone/tree/manasvi",
     demo: "https://dineout-clone.vercel.app/",
@@ -25,7 +25,7 @@ export const projectsData = [
     id: 2,
     projectName: "UpGrad Clone",
     projectDesc:
-      "upGrad is a website which offers curated online higher education, provides industry-relevant certification programs and career assistance services from universities across the world.",
+      "upGrad is a website which offers curated online higher education and provides industry-relevant certification programs.",
     tags: ["Js", "CSS", "HTML", "MongoDb", "NodeJs"],
     code: "https://github.com/madanakrishnanmasai/website-clone",
     demo: "https://upgrad-clone-backend.herokuapp.com/",

@@ -197,7 +197,20 @@ function Navbar() {
               <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Resume</span>
+                  <span
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+
+                      window.open(
+                        "https://drive.google.com/file/d/17L2bko19g2fB25272hCgJA-rqEY8tPB9/view?usp=sharing",
+                        "_blank"
+                      );
+                    }}
+                    className={classes.drawerLinks}
+                  >
+                    Resume
+                  </span>
                 </div>
               </NavLink>
             </Fade>
