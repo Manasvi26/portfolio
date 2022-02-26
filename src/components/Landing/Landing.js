@@ -144,12 +144,24 @@ function Landing() {
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
                 <a
-                  href={headerData.resumePdf}
-                  download="Manasvi_Sharma_Resume"
-                  target="_blank"
-                  rel="noreferrer"
+                // href={headerData.resumePdf}
+                // download="Manasvi_Sharma_Resume"
+                // target="_blank"
+                // rel="noreferrer"
                 >
-                  <Button className={classes.resumeBtn}>Download CV</Button>
+                  <Button
+                    onClick={(e) => {
+                      e.preventDefault();
+
+                      window.open(
+                        "https://drive.google.com/file/d/1OjYZd7p1SORYqAcXpCEDmMnPYm8nGkjb/view?usp=sharing",
+                        "_blank"
+                      );
+                    }}
+                    className={classes.resumeBtn}
+                  >
+                    Download CV
+                  </Button>
                 </a>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>

@@ -1,6 +1,6 @@
 .singleProject {
   box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
-  width: 40%;
+  width: 90%;
   height: 600px;
   border-radius: 10px;
   display: flex;
@@ -11,6 +11,7 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
+  border: 2px solid yellow;
 }
 
 .projectContent {

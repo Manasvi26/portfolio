@@ -9,6 +9,8 @@ import eight from "../assets/svg/projects/eight.svg";
 import EduTech_image from "../assets/svg/projects/EduTech_image.png";
 import upGrad_image from "../assets/svg/projects/upGrad_image.png";
 import Dineout_image from "../assets/svg/projects/Dineout_image.png";
+import zostel_image from "../assets/svg/projects/zostel_image.png";
+import cineflicks_image from "../assets/svg/projects/cineflicks_image.png";
 
 export const projectsData = [
   {
@@ -23,6 +25,16 @@ export const projectsData = [
   },
   {
     id: 2,
+    projectName: "Zostel Clone",
+    projectDesc:
+      "Zostel is one of the largest and oldest networks of hostels and homes in India.",
+    tags: ["React", "Redux", "MongoDb", "NodeJs", "Express", "Material Ui"],
+    code: "https://github.com/Manasvi26/Zostel-Website-Clone",
+    demo: "https://zostel-website-clone.vercel.app/",
+    image: zostel_image,
+  },
+  {
+    id: 3,
     projectName: "UpGrad Clone",
     projectDesc:
       "upGrad is a website which offers curated online higher education and provides industry-relevant certification programs.",
@@ -32,24 +44,14 @@ export const projectsData = [
     image: upGrad_image,
   },
   {
-    id: 3,
-    projectName: "EduTech Website",
-    projectDesc:
-      "This is the platform where user can select the creative as well as technical courses of his choice, where industry experts take live sessions.",
-    tags: ["React", "MongoDb", "NodeJs"],
-    code: "https://github.com/abhishek-hero/Project_Edutech",
-    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: EduTech_image,
-  },
-  {
     id: 4,
-    projectName: "Android Patient Tracker",
+    projectName: "Cineflicks- Movie Application",
     projectDesc:
-      "This project involves the development of an Android application for viewing and managing patient data.",
-    tags: ["Flutter", "Firebase"],
-    code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: four,
+      "This is website where you can search for your favorite movies.",
+    tags: ["Js", "HTML", "CSS"],
+    code: "https://github.com/Manasvi26/Movie-Application",
+    demo: "https://movies-iota-lime.vercel.app/",
+    image: cineflicks_image,
   },
   {
     id: 5,
