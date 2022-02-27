@@ -38,7 +38,7 @@ export const projectsData = [
     projectName: "UpGrad Clone",
     projectDesc:
       "upGrad is a website which offers curated online higher education and provides industry-relevant certification programs.",
-    tags: ["Js", "CSS", "HTML", "MongoDb", "NodeJs"],
+    tags: ["JS", "CSS", "HTML", "MongoDb", "NodeJs"],
     code: "https://github.com/madanakrishnanmasai/website-clone",
     demo: "https://upgrad-clone-backend.herokuapp.com/",
     image: upGrad_image,
@@ -48,7 +48,7 @@ export const projectsData = [
     projectName: "Cineflicks- Movie Application",
     projectDesc:
       "This is website where you can search for your favorite movies.",
-    tags: ["Js", "HTML", "CSS"],
+    tags: ["JS", "HTML", "CSS"],
     code: "https://github.com/Manasvi26/Movie-Application",
     demo: "https://movies-iota-lime.vercel.app/",
     image: cineflicks_image,
